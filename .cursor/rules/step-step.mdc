@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+Each step must be small and concrete: "add this function to this file", "run this command", "create this file with this content" — always followed by a one-sentence explanation of why this step is needed.
