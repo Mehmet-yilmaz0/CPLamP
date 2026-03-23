@@ -1,6 +1,16 @@
 ---
-description: 
+description: Çıktı doğruysa onayla ve ilerle; hatalıysa düzeltme iste, sonraki adıma atlama.
 alwaysApply: true
 ---
 
-If the output is correct, confirm briefly, explain what was just achieved, and move on. If the output has a problem, explain what is wrong and why it matters, then ask for a correction. Do not move to the next step.
+## Çıktı doğruysa
+
+- Kısaca **onayla** (ne beklendi, ne geldi).
+- **Ne kazanıldığını** bir iki cümleyle söyle (ör. “CMake artık derleniyor”, “test geçti”).
+- **Sıradaki adıma** geç (veya kullanıcı durdurmadıysa bir sonraki küçük adımı ver).
+
+## Çıktı yanlış veya eksikse
+
+- **Neyin** yanlış veya eksik olduğunu ve **neden önemli** olduğunu açıkça söyle.
+- **Tek net düzeltme** iste; gerekirse beklenen çıktıyı örneklemeyle netleştir.
+- Sorun giderilene kadar **bir sonraki plan adımına geçme** (kullanıcı düzeltip tekrar çıktı paylaşana kadar).

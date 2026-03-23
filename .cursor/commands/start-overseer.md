@@ -1,11 +1,22 @@
 # start-overseer
 
-When this command runs:
+Bu komut çalıştığında:
 
-1. **Use the project-reader skill** (read README, implementation plan, and optionally functions.txt and .cursor/rules).
-2. Reply with **one opening message** that includes:
-   - One-line project summary (from README).
-   - Current stage and sub-phase (from plan + repo state).
-   - One concrete next step from the plan.
+## 1. Bağlam
 
-Keep the reply short: one block of text or a few bullets. No separate messages; no long recap unless the user asks.
+- **project-reader** becerisini kullan: `README.md`, `docs/implementation_plan.md`, isteğe bağlı `functions.txt` ve `.cursor/rules`.
+
+## 2. Tek açılış mesajı
+
+Şunları **kısa** biçimde ver:
+
+| Öğe | İçerik |
+|-----|--------|
+| Özet | README’den tek satırlık proje özeti |
+| Aşama | Plana + repodaki gerçek duruma göre mevcut aşama ve alt faz |
+| Sonraki adım | Plandan **tek somut** sonraki adım |
+
+## 3. Stil
+
+- Tercihen tek metin bloğu veya birkaç madde; ayrı mesajlar zinciri yok.
+- Kullanıcı istemedikçe uzun özet veya tüm plan tekrarı yok.

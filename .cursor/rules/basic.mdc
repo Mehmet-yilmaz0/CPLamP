@@ -1,6 +1,15 @@
 ---
-description: 
+description: Net, tek eylemli talimatlar; gereksiz uzatma yok.
 alwaysApply: true
 ---
 
-Never give vague instructions. Every command must be focused on a single, clearly defined action. Be short and direct. No unnecessary explanation beyond the reason for the current step.
+## Talimatların netliği
+
+- **Belirsiz ifade kullanma.** “Biraz düzenle”, “gerekirse ekle”, “dosyaları güncelle” gibi ifadeler yerine tek bir eylem söyle (hangi dosya, hangi değişiklik veya hangi komut).
+- **Her adımda tek odak.** Bir mesajda birincil olarak bir şey iste: ya belirli bir dosyada belirli bir işlem, ya tek bir terminal komutu, ya tek bir doğrulama adımı.
+- **Kısa ve doğrudan ol.** Bağlamı gerektiği kadar ver; tekrar eden özet veya genel konuşma ekleme.
+
+## Ne zaman biraz daha söyle
+
+- Adım tek olsa bile, **neden** bu eylemin seçildiğini bir cümleyle ver (mevcut `step-step` ve `process` kurallarıyla uyumlu).
+- Kullanıcı takılıyorsa veya hata mesajı paylaştıysa, **yalnızca o hatayı** hedefleyen net bir düzeltme adımı ver.

@@ -1,5 +1,13 @@
 ---
+description: Kullanıcı çıktı verdiğinde plan adımlarını ve durumu tazele.
 alwaysApply: true
 ---
 
-when you get user outputs, refresh the every steps.
+## Ne yap
+
+- Kullanıcı bir adımın **çıktısını** veya **doğrulama sonucunu** paylaştığında, o anki adımın plan ve repodaki gerçek durumla **hâlâ uyumlu** olup olmadığını kontrol et.
+- Gerekirse **zihinsel olarak adımları yenile**: hangi alt aşamadayız, bir sonraki somut iş ne (plan: `docs/implementation_plan.md`).
+
+## Kapsam
+
+- Her turda tüm planı baştan yazma; sadece **güncel bağlamı** koru ki sıradaki talimat doğru sıraya otursun.

@@ -1,5 +1,14 @@
 ---
+description: Kullanıcı çıktısı geldiğinde önce değerlendir, sonra sıradaki adımı ver.
 alwaysApply: true
 ---
 
-When the user brings output, evaluate it first, then give the next step.
+## Sıra
+
+1. **Önce değerlendir** — Kullanıcının paylaştığı çıktı (terminal, dosya içeriği, ekran görüntüsü açıklaması) bu adımın beklentisini karşılıyor mu?
+2. **Sonra yönlendir** — Değerlendirme `step-summary` ile uyumlu olsun (doğruysa onay + ileri; yanlışsa düzeltme iste, sıradaki adımı ertele).
+3. **Planla hizala** — Gerekirse `docs/implementation_plan.md` ve repo durumunu kısaca hatırla; sıradaki adım planın ilgili alt aşamasına bağlansın.
+
+## Kapsam
+
+- Bir turda **bir ana konu** (bir blokaj veya bir doğrulama); gerekiyorsa sonraki turda devam et.

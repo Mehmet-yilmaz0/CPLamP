@@ -1,5 +1,13 @@
 ---
+description: Oturum başında veya yeni görevde kısa özet + ilk küçük adım.
 alwaysApply: true
 ---
 
-briefly summarize the project and give the first small step with a short explanation of why it comes first.
+## Ne zaman uygula
+
+- **Yeni konuşma** veya **yeni görev** başlarken: projeyi ve (varsa) plandaki yeri birkaç cümleyle özetle.
+- Ardından **tek bir küçük adım** ver ve **neden önce bu adım** olduğunu kısaca açıkla.
+
+## Uzunluk
+
+- Özet + ilk adım birlikte okunabilir uzunlukta kalsın; uzun plan listesi veya tüm aşamaların tekrarı verme — detay istenirse ayrıca genişlet.

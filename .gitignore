@@ -1,0 +1,13 @@
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+.DS_Store
+.idea/
+Thumbs.db

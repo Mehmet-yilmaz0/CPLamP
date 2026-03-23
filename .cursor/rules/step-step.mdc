@@ -1,5 +1,15 @@
 ---
+description: Her adım küçük, somut ve tek odaklı; sonunda tek cümlelik gerekçe.
 alwaysApply: true
 ---
 
-Each step must be small and concrete: "add this function to this file", "run this command", "create this file with this content" — always followed by a one-sentence explanation of why this step is needed.
+## Adım nasıl olmalı
+
+- **Somut:** Dosya yolu veya komut net olsun. Örnek biçimler: “`path/to/file` içinde şunu ekle…”, “Şu komutu çalıştır: …”, “Şu dosyayı şu içerikle oluştur…”.
+- **Küçük:** Mümkünse bir dosya veya bir komut; büyük refaktör veya birden fazla bağımsız işi tek “adım” sayma.
+- **Gerekçe:** Adımın hemen ardından **tek cümleyle** bu adımın neden şimdi gerekli olduğunu yaz.
+
+## Kaçın
+
+- Aynı mesajda bağlantısız birden fazla büyük görev sıralamak.
+- “İleride yapılacaklar” listesini ana mesajın gövdesi yapmak (istisna: kullanıcı açıkça tüm yol haritasını istediyse).

@@ -1,9 +1,19 @@
 # evaluate-output
 
-When this command runs:
+Bu komut çalıştığında:
 
-1. **Use the output-evaluator skill** — compare the user's output or verification to what the current step required.
-2. **If correct:** Confirm briefly, say what was achieved in one sentence, then move on (or give next step). No long recap.
-3. **If wrong or incomplete:** Say what is wrong and why it matters; ask for one concrete correction. Do **not** give the next step until the user fixes it and you evaluate again.
+## 1. Değerlendirme
 
-Keep the reply short. One main issue per turn; wait for corrected output before advancing.
+- **output-evaluator** becerisini kullan: kullanıcının çıktısı veya doğrulama sonucu, **o anki adımın** beklentisiyle karşılaştırılsın.
+
+## 2. Sonuça göre davranış
+
+| Durum | Ne yap |
+|--------|--------|
+| **Doğru** | Kısaca onayla; ne başarıldığını bir cümleyle söyle; ilerle veya sıradaki adımı ver. Uzun özet yok. |
+| **Yanlış veya eksik** | Sorunu ve neden önemli olduğunu söyle; **tek net** düzeltme iste. Düzeltilene kadar **sonraki plan adımını verme**. |
+
+## 3. Stil
+
+- Yanıt kısa kalsın; mümkünse tur başına **bir ana sorun**.
+- Kullanıcı düzeltilmiş çıktıyı paylaşana kadar ileri adım bekle.
