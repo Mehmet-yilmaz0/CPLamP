@@ -11,3 +11,4 @@ Makefile
 .DS_Store
 .idea/
 Thumbs.db
+stage-install*/
